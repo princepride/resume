@@ -1,6 +1,6 @@
 import React from 'react';
 import { MeshLambertMaterial } from 'three';
-const Box = (props) => {
+const Box = () => {
     return (
         <mesh>
             <boxGeometry attach = 'geometry' />

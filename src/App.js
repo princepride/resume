@@ -12,7 +12,6 @@ function App() {
       <OrbitControls />
         <SpotLight />
         <PerspectiveCamera makeDefault position={[4, 0, 4]} near={1} />
-        <Box /> 
         <Plane width={20} height={20}/> 
       </Canvas> 
   );
