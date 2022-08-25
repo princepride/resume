@@ -5,11 +5,13 @@ import Plane from "./Component/Plane"
 import Box from "./Component/Box"
 import React from 'react'
 import SpotLight from "./Component/SpotLight"
+import { MyControls } from './Component/MyControls';
 
 function App() {
   return (
       <Canvas>
-      <OrbitControls />
+      {/* <OrbitControls /> */}
+      <MyControls />
         <SpotLight />
         <PerspectiveCamera makeDefault position={[4, 0, 4]} near={1} />
         <Plane width={20} height={20}/> 
